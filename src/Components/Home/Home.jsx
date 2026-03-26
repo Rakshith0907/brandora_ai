@@ -9,7 +9,7 @@ const Home = () => {
     },
     {
       name: "zoom",
-      logo: "/images/zoom-logo.png",
+      logo: "/images/zoom-logo-xbg.png",
     },
     {
       name: "rakuten",
@@ -17,15 +17,15 @@ const Home = () => {
     },
     {
       name: "coinbase",
-      logo: "/images/coinbase-logo.png",
+      logo: "/images/coinbase-logo-xbg.png",
     },
     {
       name: "airbnb",
-      logo: "/images/airbnb-logo.png",
+      logo: "/images/airbnb-logo-xbg.png",
     },
     {
       name: "google",
-      logo: "/images/google-logo.png",
+      logo: "/images/google-logo-xbg.png",
     },
   ];
   return (

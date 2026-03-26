@@ -38,18 +38,14 @@
         box-shadow: 0px 10px 10px rgba(100, 100, 100, 0.397);
         transition: 0.5s;
         .service-card-logo {
-          /* width: 10%; */
           display: flex;
           align-items: center;
-          /* border: 2px solid grey; */
-          /* border-radius: 50%; */
           h4{
             display: flex;
             justify-content: center;
             align-items: center;
             font-size: 30px;
             border: 6px solid rgba(128, 128, 128, 0.541);
-            /* padding: 20px; */
             border-radius: 50%;
             height: 80px;
             width: 80px;
@@ -63,7 +59,6 @@
         }
       }
       .service-card:hover{
-        /* border-top: 1px solid rgb(0, 132, 255); */
         border: 2px solid rgb(33, 2, 119); 
         box-shadow: 0px 10px 10px rgba(100, 100, 100, 0.397);
         transition: 0.8s;

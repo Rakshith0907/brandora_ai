@@ -38,18 +38,14 @@
         box-shadow: 2px 5px 5px rgb(194, 194, 194);
         transition: 0.5s;
         .team-card-img {
-          /* border: 1px solid blue; */
-          /* height: 10%; */
           display: flex;
           align-items: center;
-          /* border: 2px solid grey; */
           border-radius: 50%;
           img {
             padding: 10px;
             border-radius: 50%;
             height: 70px;
             width: 70px;
-    
           }
         }
         .team-details {
@@ -57,7 +53,6 @@
           flex-direction: column;
           justify-content: center;
           height: 120%;
-          /* border: 1px solid red; */
           padding-top: 15px;
           h5, p {
             font-size: 12px;
@@ -65,7 +60,6 @@
         }
       }
       .team-card:hover{
-        /* border-top: 1px solid rgb(0, 132, 255); */
         transform: scale(1.02);
         transition: 0.5;
       }
