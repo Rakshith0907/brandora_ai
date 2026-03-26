@@ -1,0 +1,92 @@
+.home-main{ 
+    /* border: 1px solid red; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 100px;
+    background: url("/images/homebg.jpg");
+    background-size: cover;
+    .home-components{
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid black; */
+        width: 80%;
+        /* justify-content: center; */
+        align-items: center;
+        gap: 20px;
+        .home-top{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            h5{
+                border: 1px solid rgb(80, 80, 80);
+                font-size: 12px;
+                border-radius: 20px;
+                padding: 10px;
+                color: rgb(80, 80, 80);
+            }
+            h1{
+                /* border: 1px solid black; */
+                width: 90%;
+                font-size: 80px;
+                text-align: center;
+                font-weight: 400;
+                #home-span{
+                    background: linear-gradient(120deg, rgb(0, 4, 255) , rgb(28, 89, 255)) ;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+            p{
+                /* border: 1px solid black; */
+                width: 40%;
+                text-align: center;
+            }
+        }
+        .home-image{
+            display: flex;
+            justify-content: center;
+            /* border: 1px solid red; */
+            img{
+                border-radius: 50px;
+                width: 95%;
+            }
+        }
+        .home-footer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+            h4{
+                font-size: 18px;
+            }
+            .home-footer-logos{
+                margin-top: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+                img{
+                    width: 7%;
+                    height: fit-content;
+                    /* border: 1px solid blue; */
+                }
+            }
+        }
+    }
+}
+body.dark .home-main{
+    background: none;
+    .home-components{
+        .home-top{
+            h5{
+                color: white;
+                border-color: white;
+            }
+        }
+    }
+}

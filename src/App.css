@@ -1,0 +1,18 @@
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+    
+}
+
+a{
+        color: var(--text-color);
+    }
+
+
+body.dark {
+  --bg-color: #0c0c0c;
+  --text-color: #e6e5e5;
+  transition: all 0.3s ease;
+  
+}

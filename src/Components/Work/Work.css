@@ -1,0 +1,59 @@
+.work-main {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 100px;
+  .work-components {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 80%;
+    .work-heading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      h1 {
+        font-size: 40px;
+      }
+      p {
+        width: 80%;
+        text-align: center;
+      }
+    }
+    .work-elements {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      /* border: 1px solid green; */
+
+      .work-card {
+        /* border: 1px solid red; */
+        width: 30%;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        /* height: 150px; */
+        align-items: center;
+        border-radius: 20px;
+        /* box-shadow: 2px 5px 5px rgb(194, 194, 194); */
+        transition: 0.5s;
+        h5{
+            font-size: 18px;
+            text-align: left;
+            width: 100%;
+        }
+        img{
+            height: 200px;
+            width: 100%;
+            border-radius: 10px;
+        }
+      }
+      .work-card:hover{
+        transform: scale(1.02);
+      }
+    }
+  }
+}
