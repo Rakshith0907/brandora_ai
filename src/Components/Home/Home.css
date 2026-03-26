@@ -5,7 +5,7 @@
     padding: 10px;
     padding-top: 100px;
     background: url("/images/homebg.jpg");
-    background-size: cover;
+    background-size: 100%;
     .home-components{
         display: flex;
         flex-direction: column;
